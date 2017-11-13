@@ -1,0 +1,29 @@
+/*footer*/
+footer{
+	height: 263px;
+	padding-top: 55px;
+	background: url(../images/bottombg.png);
+}
+
+/*footer-logo*/
+footer #footerLogo{
+	width: 136px;
+	height: 91px;
+	margin-right: 85px;
+	background: url(../images/footer_logo.png) no-repeat;
+}
+
+/*footer-公司相关信息*/
+footer #information h2{
+	font-size: 16px;
+}
+
+footer #information p{
+	line-height: 24px;
+	margin-top: 14px;
+}
+
+footer #information .copy{
+	color: #979797;
+	margin-top: 44px;
+}

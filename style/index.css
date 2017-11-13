@@ -1,0 +1,191 @@
+#aboutUs #aboutUsContent #toLearnMore{
+	width: 106px;
+	height: 38px;
+	margin: 30px auto 60px auto;
+	background: url(../images/more_more_bg.png) no-repeat;
+	line-height: 38px;
+}
+
+#aboutUs #aboutUsContent #toLearnMore a{
+	color: #000;
+}
+
+/*company*/
+#company{
+	height: 350px;
+}
+#company #companyTitle{
+	height: 34px;
+}
+
+#company #companyTitle ul{
+	width: 320px;
+	height: 34px;
+	margin: auto;
+}
+
+#company #companyTitle li{
+	float: left;
+	height: 33px;
+	color: #fff;
+	line-height: 34px;
+	padding: 0px 25px;
+	margin-left: 10px;
+	background-color: #626262;
+	border: solid 1px #cbcbcb;
+}
+
+#company #companyTitle li:hover,#company #companyTitle .current{
+	color: #df5a33;
+	background: #fff;
+	border-bottom: solid 1px #fff;
+}
+
+#company #companyContent img{
+	padding: 0px 40px 0px 112px;
+}
+
+#company #companyContent dt{
+	color: #626262;
+	line-height: 23px;
+}
+
+#company #companyContent dd{
+	line-height: 23px;
+	font-weight: bold;
+}
+
+/*project*/
+#project{
+	height: 310px;
+	padding-top: 40px;
+	background: url(../images/idnex_02.png);
+	background-size: cover;
+	text-align: center;
+}
+
+#project #projectContent .arrows{
+	width: 20px;
+	height: 148px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+#project #projectContent #leftArrows{
+	background-image:url(../images/btnleft.png);
+	margin-right: 10px;
+}
+
+#project #projectContent #rightArrows{
+	background-image:url(../images/btnright.png);
+}
+
+#project #projectContent #projectContent945 img{
+	width: 310px;
+	height: 148px;
+}
+
+#project #projectContent #projectContent945 .imageBox{
+	margin-right: 5px;
+	position: relative;
+}
+
+#project #projectContent #projectContent945 .imageBox span{
+	display: block;
+	
+	height: 30px;
+	width: 290px;
+	
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding-left: 20px;
+	
+	color: #fff;
+	line-height: 30px;
+	text-align: left;
+	
+	background-color: rgba(0,0,0,0.7);
+	
+}
+
+/*newsAndMsg*/
+#newsAndMsg{
+	padding-top: 30px;
+}
+
+/*newsAndMsg-新闻*/
+#newsAndMsg #news{
+	width: 460px;
+}
+
+#newsAndMsg #news ul{
+	margin-top: 10px;
+}
+
+#newsAndMsg #news li{
+	line-height: 34px;
+	border-bottom: dashed 1px #cacaca;
+}
+
+#newsAndMsg #news li span{
+	display: block;
+	float: right;
+	color: #cccbca;
+}
+
+#newsAndMsg #news a{
+	color: #000;
+}
+
+#newsAndMsg #news .viewMore{
+	width: 100px;
+	margin-top: 20px;
+	font-size: 16px;
+	font-style: italic;
+	color: #000;
+	border-bottom: solid 1px #efefef ;
+}
+
+/*newsAndMsg-新闻列表留言板*/
+#newsAndMsg #msg{
+	width: 500px;
+	position: relative;
+}
+
+#newsAndMsg #msg form{
+	margin-top: 12px;
+}
+
+#newsAndMsg #msg input{
+	width: 230px;
+	height: 32px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+#newsAndMsg #msg .rightInput{
+	margin-left: 8px;
+}
+
+#newsAndMsg #msg .codeText{
+	width: 84px;
+	height: 32px;
+	margin: 0px 10px;
+}
+
+#newsAndMsg #msg textarea{
+	width: 478px;
+	height: 164px;
+	font-size: 16px;
+	padding: 10px;
+}
+
+#newsAndMsg #msg .submit{
+	width: 134px;
+	height: 33px;
+	background-color: #d43b33;
+	color: #fff;
+	border: none;
+	margin: 10px 0px 0px 80px;
+}

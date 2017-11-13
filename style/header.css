@@ -1,0 +1,70 @@
+header{
+	height: 72px;
+	background-color: #d43b33;
+}
+
+header #logo{
+	width: 118px;
+	height: 72px;
+	background: url(../images/LOGO.png) no-repeat;
+}
+
+header a{
+	color: #fff;
+}
+
+header a:hover{
+	text-decoration: none;
+}
+/*头部导航*/
+/*主导航*/
+header #mainNav{
+	margin-top: 30px;
+}
+
+header #mainNav>li{
+	float: left;
+	margin-right: 36px;
+	font-size: 16px;
+	position: relative;
+}
+
+header #mainNav>li:hover .subNav{
+	display: block;
+}
+
+header #mainNav>li>a{
+	display: block;
+	height: 42px;
+}
+
+header #mainNav>li:hover>a,header #mainNav .current{
+	text-decoration: none;
+	background: url(../images/nav_bg.png) no-repeat;
+	background-position: center bottom; 
+}
+
+/*子导航*/
+header #mainNav .subNav{
+	width: 80px;
+	
+	color: #fff;
+	font-size: 14px;
+	
+	position: absolute;
+	left: 0px;
+	top: 42px;
+	
+	background-color: rgba(162,0,0,0.5);
+	
+	display: none;
+}
+
+header #mainNav .subNav li{
+	padding:5px 10px;
+	border-bottom: solid 1px #A6A6A6;
+}
+
+#banner img{
+	width: 100%;
+}

@@ -1,0 +1,32 @@
+/*新闻列表*/
+#newsList #newsClass{
+	width: 667px;
+	margin: auto;
+}
+
+#newsList #newsListContent .newsDetail{
+	width: 480px;
+	height: 200px;
+	margin: 0px 20px 35px 0px;
+}
+
+#newsList #newsListContent .newsDetail img{
+	width: 200px;
+	height: 200px;
+}
+
+#newsList #newsListContent .newsDetail .newsText{
+	width: 250px;
+	height: 160px;
+	padding: 30px 0px 0px 30px;
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+
+#newsList #newsListContent .newsDetail .newsText p{
+	width: 220px;
+	margin: 35px 30px 0px 0px;
+	font-size: 12px;
+	line-height: 16px;
+}
+

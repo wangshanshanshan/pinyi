@@ -1,0 +1,15 @@
+/*联系方式*/
+#contactInformation .contacClass{
+	width: 333px;
+	height: 190px;
+	
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/*地图定位*/
+#location{
+	height: 426px;
+	background: url(../images/map.png);
+	background-size: cover;
+}

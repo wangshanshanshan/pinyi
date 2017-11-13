@@ -1,0 +1,25 @@
+/*视频播放区域*/
+#videoCenter #videoPlayer{
+	width: 873px;
+	height: 475px;
+	margin: 30px auto 80px auto;
+}
+
+#videoCenter #videoPlayer #videoContent{
+	width: 628px;
+	height: 355px;
+	background-color: #000;
+	padding: 60px 0px;
+}
+
+#videoCenter #videoPlayer #videoContent video{
+	width: 628px;
+	height: 355px;
+}
+
+/*视频集数*/
+#videoCenter #videoPlayer #videoList{
+	width: 244px;
+	height: 475px;
+	background-color: #000;
+}

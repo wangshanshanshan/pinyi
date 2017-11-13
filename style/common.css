@@ -1,0 +1,259 @@
+/*公用部分*/
+.autoDiv,header,footer,#banner,#project,#culture{
+	width: 100%;
+}
+
+.div1000,#aboutUs,#newsAndMsg,#company,#events{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*左浮动*/
+.fl{
+	float: left;
+}
+
+/*右浮动*/
+.fr{
+	float: right;
+}
+
+/*清除浮动*/
+.clear{
+	clear: both;
+}
+
+/*文本加粗*/
+.bold{
+	font-weight: bold;
+}
+
+/*标题*/
+.title{
+	font-size: 18px;
+	line-height: 28px;	
+}
+
+/*颜色字体*/
+.colorRed{
+	color: #d43b33;
+}
+
+.colorBlack{
+	color: #000;
+}
+
+.colorWhite{
+	color: #fff;
+}
+
+.colorGray{
+	color: #afafaf;
+}
+
+/*灰色底线*/
+.boderBottom{
+	border-bottom: solid 1px #cbcbcb;
+}
+
+/*金色底线*/
+.boderBottomGold{
+	border-bottom: solid 1px #f3e3c9;
+}
+
+/*红色底线*/
+.RedBoderBottom{
+	border-bottom: solid 2px #d43b33;
+}
+
+.paddingTop50{
+	padding-top: 50px;
+}
+
+.paddingTop40{
+	padding-top: 40px;
+}
+
+.paddingBottom50{
+	padding-bottom: 50px;
+}
+
+.paddingBottom25{
+	padding-bottom: 25px;
+}
+
+.marginBottom45{
+	margin-bottom: 45px;
+}
+
+.marginTop50{
+	margin-top: 50px;
+}
+
+.maginLeft50{
+	margin-left: 50px;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+.textRight{
+	text-align: right;
+}
+
+a{
+	color: #743354;
+}
+
+h1{
+	font-size: 24px;
+	margin: 60px 0px 20px 0px;
+}
+
+/*文章内容间距*/
+.articleContentPadding{
+	padding: 25px 0px 0px 10px;
+}
+
+/*文章文字格式*/
+.articleContentStyle{
+	font-size: 14px;
+	line-height: 24px;
+	color: #743354;
+}
+
+.smallFont{
+	font-size: 12px;
+}
+
+/*选项卡开始*/
+.tabControl{
+	height: 42px;
+}
+
+.tabControl a{
+	text-decoration: none;
+}
+
+.tabControl li{
+	float: left;
+	
+	width: 333px;
+	height: 35px;
+	
+	font-size: 16px;
+	line-height: 35px;
+	color: #000;
+	background-color: #fafafa;
+}
+
+.tabControl .current{
+	height: 42px;
+	width: 334px;
+	background: url(../images/tapbg.png) no-repeat;
+}
+/*选项卡结束*/
+
+/*列表页码控件开始*/
+.pager{
+	height: 38px;
+	margin-top: 25px;
+	
+	font-size: 14px;
+	color: #fff;
+	line-height: 38px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.pager li{
+	float: left;
+	padding: 0px 15px;
+	margin-right: 1px;
+	background-color: #d8d8d8;
+	cursor: pointer;
+}
+
+.pager .current{
+	background-color: #d43b33;
+}
+
+/*上一页箭头*/
+.pager .leftArrows{
+	border-radius: 5px 0px 0px 5px;
+}
+
+/*下一页箭头*/
+.pager .rightArrows{
+	border-radius: 0px 5px 5px 0px;
+}
+
+
+/*列表页码控件结束*/
+
+/*大个的转页按钮开始*/
+.bigScrollBtn{
+	width: 585px;
+	margin: 35px auto 0px auto;
+}
+
+.scrollBtn{
+	width: 261px;
+	height: 32px;
+	padding: 0px 12px 0px 12px;
+	
+	background-color: #e5e5e5;
+	
+	font-size: 20px;
+	color: #fff;
+	line-height: 32px;
+	
+	cursor: pointer;
+}
+
+.scrollBtn:hover{
+	background-color:#d43b33;
+}
+/*大个的滚动按钮结束*/
+
+/*首页与关于的aboutUs*/
+#aboutUsSoild{
+	margin-top: 95px;
+}
+
+/*aboutUs顶部标题*/
+#aboutUs #aboutTitle{
+	width: 180px;
+	margin: 0px auto;
+	
+	background-color: #fff;
+	
+	position: relative;
+	top:-45px;
+	left: 0px;
+}
+
+#aboutUs #aboutUsContent p{
+	line-height: 28px;
+}
+
+/*客服条*/
+#onlineService{
+	width: 72px;
+	background-color: #D43B33 ;
+	
+	position: fixed;
+	right: 0px;
+	top: 280px;
+}
+#onlineService li{
+	border-bottom: solid 1px #fff;
+	cursor: pointer;
+}
+
+.word{
+	font-family: "Corbel";
+	font-size: 12px;
+}

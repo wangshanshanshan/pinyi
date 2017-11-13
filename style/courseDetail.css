@@ -1,0 +1,42 @@
+/*视频地址和视频介绍的公用样式*/
+.courseTitle{
+	border-bottom: solid 2px #d16d57;
+}
+
+.titleText{
+	width: 100px;
+	height: 30px;
+	
+	border-radius: 5px 5px 0px 0px;
+	background-color: #d16d57;
+	
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #fff;
+}
+
+/*视频地址*/
+#courseVideoDetail #videoAddress ul{
+	padding: 30px 0px 30px 0px;
+}
+
+#courseVideoDetail #videoAddress li{
+	float: left;
+	width: 80px;
+	height: 30px;
+	margin-right: 10px;
+	
+	background-color: #d43b33;
+	line-height: 30px;
+	text-align: center;
+}
+
+#courseVideoDetail #videoAddress li a{
+	color: #fff;
+}
+
+/*视频介绍*/
+#courseVideoDetail #videoIntroduce p{
+	margin: 15px 0px 55px 10px;
+}

@@ -1,0 +1,81 @@
+/*关于我们英文字体*/
+#aboutUs #aboutUsContent .word{
+	font-family: "Corbel";
+	font-size: 12px;
+}
+
+/*企业文化*/
+#culture{
+	height: 395px;
+	margin-top: 60px;
+	padding-top: 70px;
+	background: url(../images/by_good_project.png);
+}
+
+#culture #ourCulture #ourCultureContent{
+	width: 380px;
+	margin-top: 25px;
+	
+	line-height: 27px;
+	font-weight: bold;
+}
+
+#culture #ourCulture #ourCultureContent dt{
+	color: #000;
+}
+
+#culture #ourCulture #ourCultureContent dd{
+	border-bottom: solid 1px #bebebe;
+}
+
+/*大事记*/
+#events #eventsContent{
+	margin: 30px 0px 120px 0px;
+}
+
+#events #eventsContent .enentsBox250{
+	width: 250px;
+	height: 174px;
+	float: left;
+	position: relative;
+}
+
+#events #eventsContent .textBox{
+	width: 210px;
+	height: 124px;
+	padding: 50px 20px 0px 20px;
+	
+	background-color: #4b4b4b;
+	
+	text-align: left;
+	line-height: 16px;
+	color: #fff;
+}
+
+#events #eventsContent .textBox p{
+	font-size: 14px;
+	margin-bottom: 18px;
+}
+
+/*小三角*/
+#events #eventsContent .triangle{
+	border: solid 12px #4b4b4b;
+	border-color: transparent #4b4b4b transparent transparent;
+	
+	position: absolute;
+	top: 80px;
+	right: 0px;
+}
+
+#events #eventsContent .triangleRight{
+	border-color: transparent transparent transparent #4b4b4b;
+	right: 226px;
+}
+
+#events #eventsContent #bottomText{
+	height: 40px;
+	line-height: 40px;
+	background-color: #d43b33;
+}
+
+

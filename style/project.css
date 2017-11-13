@@ -1,0 +1,55 @@
+/*项目列表*/
+#projectList #projectTile{
+	height: 42px;
+}
+
+#projectList #projectTile li{
+	float: left;
+	
+	height: 35px;
+	padding: 0px 142px;
+	
+	font-size: 16px;
+	line-height: 35px;
+	color: #000;
+	background-color: #fafafa;
+}
+
+#projectList #projectTile li:hover,#projectList #projectTile .current{
+	height: 42px;
+	width: 50px;
+	background: url(../images/tapbg.png) no-repeat;
+}
+
+#projectList .boder{
+	border: solid 1px #d6d6d6;
+}
+
+#projectList #projectDetail{
+	width: 660px;
+	padding: 25px 30px;
+}
+
+#projectList #projectDetail #projectText{
+	width: 420px;
+}
+
+#projectList #projectDetail #projectText .read{
+	margin-left: 190px;
+}
+
+#projectList #projectRecommend{
+	padding: 28px 20px;
+	width: 210px;
+	height: 60px;
+}
+
+#projectList #projectRecommend .content{
+	padding-bottom: 18px;
+	border-bottom: solid 1px #d6d6d6;
+}
+
+#projectList #projectRecommend .content .text{
+	
+	line-height: 10px;
+}
